@@ -1,3 +1,8 @@
+思路：二分查找法找到数组中目标值的第一个和最后一个出现的位置。
+这两者的区别是 中间值 < 目标值 还是 中间值 <= 目标值
+这和二分查找的区别是： 没有 中间值 == 目标值 的判断
+
+
 class Solution {
 public:
     vector<int> searchRange(int A[], int n, int target) {
